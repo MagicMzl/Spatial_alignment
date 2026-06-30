@@ -1,4 +1,4 @@
-# OpenCOOD Training and Testing Guide
+# Training and Testing Guide
 
 OpenCOOD uses YAML configuration files to manage training and testing parameters. This guide explains how to train a model from scratch, continue training from a checkpoint, and test a trained model.
 
