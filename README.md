@@ -19,6 +19,8 @@ To train a model from scratch or continue training from an existing checkpoint, 
 
 Before testing, make sure the `validation_dir` field in the `config.yaml` file under your checkpoint folder points to the testing dataset path.
 
+    python opencood/tools/inference.py \
+        [--model_dir ${CHECKPOINT_FOLDER}] \
 For example:
 
     validation_dir: opv2v_data_dumping/test
