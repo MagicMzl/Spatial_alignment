@@ -23,4 +23,4 @@ Before testing, make sure the `validation_dir` field in the `config.yaml` file u
         [--model_dir ${CHECKPOINT_FOLDER}] \
 For example:
 
-    validation_dir: opv2v_data_dumping/test
+    model_dir: opv2v_data_dumping/test
