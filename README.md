@@ -13,3 +13,11 @@ python opencood/tools/train.py \
     --hypes_yaml /opencood/hypes_yaml/opv2v/mm/mm_v2x.yaml \
     [--model_dir ${CHECKPOINT_FOLDER}] \
     [--half]
+## 📌 2. Test a Trained Model
+
+Before testing, make sure the `validation_dir` field in the `config.yaml` file under your checkpoint folder points to the testing dataset path.
+
+For example:
+
+```yaml
+validation_dir: opv2v_data_dumping/test
