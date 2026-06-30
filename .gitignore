@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+build/
+dist/
+*.egg-info/
+
+opencood/logs/
+*.pth
+*.pt
+*.ckpt
+
+.pytest_cache/
+.mypy_cache/
+.DS_Store
